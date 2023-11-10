@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply bg-gray-100;
+}
+
+@import "pages/home.scss";
+@import "components/Heading/styles.scss";
+@import "components/List/styles.scss";
+@import "components/List/ListItem/styles.scss";
+@import "components/Button/styles.scss";
+@import "components/Form/styles.scss";

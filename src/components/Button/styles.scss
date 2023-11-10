@@ -1,0 +1,17 @@
+@layer components {
+    .btn {
+        @apply rounded flex justify-center items-center gap-2 px-4 h-12 w-full min-w-[70px];
+
+        &-edit {
+            @apply bg-warning-color text-white hover:bg-warning-dark-1;
+        }
+
+        &-delete {
+            @apply bg-error-color text-white hover:bg-error-dark-1;
+        }
+
+        &-add {
+            @apply bg-success-color text-white hover:bg-success-dark-1;
+        }
+    }
+}

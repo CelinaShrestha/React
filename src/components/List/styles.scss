@@ -1,0 +1,5 @@
+@layer components {
+    .task-lists {
+        @apply bg-primary-light-5 rounded-lg shadow-lg p-4 h-fit mx-4;
+    }
+}

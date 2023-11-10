@@ -1,0 +1,13 @@
+@layer components {
+    .Add-item-form {
+        @apply flex items-center bg-primary-light-5 p-4 my-5 justify-between mx-5 rounded-lg;
+
+        .form-input {
+            @apply flex gap-4;
+
+            input {
+                @apply h-12 w-80 px-4 rounded-lg;
+            }
+        }
+    }
+}
